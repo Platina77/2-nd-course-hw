@@ -74,10 +74,75 @@
 .main{
     background-color: $btn-primary;
     background-image: 
-        url("./img/main-stars.png"),
-        url("./img/big-star1.png");
+        url("./img/big-star1.png"),
+        url("./img/main-stars.png");
     background-repeat: no-repeat;
     background-position: 
         top right,
-        top 60% left calc(50% - 135px);
+        top -28% left calc(50% - 52px);
+}
+
+.about{
+    
+    &__title{
+        padding-top: 94px;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        color: #fff;
+        padding-bottom: 24px;
+    }
+
+    &__text{
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        color: #fff;
+        padding-bottom: 72px;
+    }
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 1063px;
+    gap: 32px;
+}
+
+.card{
+    max-width: 378px;
+    &__link{
+        text-decoration: none;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        border-radius: 30px;
+        justify-content: center;
+    }
+
+    &__content{
+        margin: 32px 32px 36px;
+    }
+
+    &__subtitle{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        color: $text-primary;
+        padding: 9px 16px;
+        background-color: #F7F7F7;
+        border-radius: 52.582px;
+        display: inline-block;
+        margin-bottom: 16px;
+    }
+
+    &__title{
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        color: $text-primary;
+    }
 }
