@@ -1,0 +1,91 @@
+.header {
+  background-color: #E1FF8F;
+  padding-top: 196px;
+  padding-bottom: 156px;
+  background-image: url("./img/big-star.png"), url("./img/group-stars.png");
+  background-repeat: no-repeat;
+  background-position: top right, top 60% left calc(50% - 135px);
+}
+.header__heading {
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #202027;
+  margin-bottom: 24px;
+}
+.header__text {
+  color: #202027;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 48px;
+}
+.header__text_bold {
+  font-weight: 600;
+}
+.header__btn {
+  background-color: #202027;
+  text-decoration: none;
+  color: #FFF;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  padding: 16px 65px;
+  border-radius: 60px;
+  border: 1px solid #202027;
+  display: block;
+  max-width: 248px;
+}
+
+.ticker {
+  background: #BCEC30;
+}
+.ticker__list {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding-top: 27px;
+  padding-bottom: 30px;
+}
+.ticker__item {
+  color: #202027;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.main {
+  background-color: #202027;
+  background-image: url("./img/main-stars.png"), url("./img/big-star1.png");
+  background-repeat: no-repeat;
+  background-position: top right, top 60% left calc(50% - 135px);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", Arial, Helvetica, serif;
+}
+
+.container {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}/*# sourceMappingURL=style.css.map */
