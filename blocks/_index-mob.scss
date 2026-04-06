@@ -1,0 +1,57 @@
+@media(max-width: 767px){
+
+    .page-repo{
+        background-image: 
+            url("./img/big-star-mob.svg"),
+            url("./img/star-mob-up.svg"),
+            url("./img/star-mob-down.svg");
+        background-repeat: no-repeat;
+        background-position:
+            top right,
+            top 64px left 10%,
+            bottom 79px right 10%;
+    }
+
+    .container{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header{
+        padding-top: 147px;
+        padding-bottom: 147px;
+        text-align: center;
+
+        &__heading{
+            font-size: 40px;
+        }
+
+        &__text{
+            font-size: 16px;
+            margin-bottom: 36px;
+        }
+
+        &__btn{
+            font-size: 16px;
+            padding: 16px 104px;
+            max-width: 285px;
+            margin: auto;
+        }
+    }
+
+    .ticker{
+
+        &__list{
+            padding: 16px 0;
+        }
+
+        &__item{
+            font-size: 16px;
+
+            svg{
+                width: 19px;
+                height: 19px;
+            }
+        }
+    }
+}

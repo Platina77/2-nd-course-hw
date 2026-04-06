@@ -1,5 +1,4 @@
-@import './blocks/variables';
-@import './blocks/index-desc';
+
 
 *{
     margin: 0;
@@ -15,3 +14,9 @@ body{
     padding-left: calc(50% - 600px);
     padding-right: calc(50% - 600px);
 }
+
+
+@import './blocks/variables';
+@import './blocks/index-desc';
+@import './blocks/index-tablet';
+@import './blocks/index-mob';
