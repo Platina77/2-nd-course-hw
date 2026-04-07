@@ -62,6 +62,7 @@ body {
 
 .ticker {
   background: #BCEC30;
+  overflow: hidden;
 }
 .ticker__list {
   list-style-type: none;
@@ -166,13 +167,19 @@ body {
   color: #202027;
 }
 
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 836px) and (max-width: 1199px) {
   .container {
     padding-left: 24px;
     padding-right: 24px;
   }
+  .cards {
+    max-height: 1603px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
-@media (max-width: 767px) {
+@media (max-width: 835px) {
   .page-repo {
     background-image: url("./img/big-star-mob.svg"), url("./img/star-mob-up.svg"), url("./img/star-mob-down.svg");
     background-repeat: no-repeat;
@@ -209,5 +216,25 @@ body {
   .ticker__item svg {
     width: 19px;
     height: 19px;
+  }
+  .main {
+    background-image: none;
+  }
+  .about__title {
+    font-size: 40px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .about__text {
+    display: none;
+  }
+  .cards {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    max-height: none;
+    gap: 24px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }/*# sourceMappingURL=style.css.map */
