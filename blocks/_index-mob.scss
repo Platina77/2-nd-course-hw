@@ -29,6 +29,7 @@
         &__text{
             font-size: 16px;
             margin-bottom: 36px;
+            line-height: normal;
         }
 
         &__btn{
@@ -60,22 +61,6 @@
     }
 
     .about{
-
-        &__title{
-            font-size: 40px;
-            padding-top: 48px;
-            padding-bottom: 48px;
-        }
-
-        &__text{
-            display: none;
-        }
-    }
-
-    .cards{
-        flex-wrap: nowrap;
-        max-height: none;
-        gap: 24px;
-        align-items: center;
+        display: none;
     }
 }

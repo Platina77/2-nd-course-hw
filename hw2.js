@@ -6,11 +6,11 @@ a = 20;
 alert(a);
 
 //2.
-let b = 2007;
+const b = 2007;
 alert(b);
 
 //3.
-let c = "Brendan";
+const c = "Brendan";
 alert(c);
 
 //4.
