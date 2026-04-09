@@ -1,10 +1,30 @@
-.header {
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", Arial, Helvetica, serif;
+}
+
+.container {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.page-repo {
   background-color: #E1FF8F;
-  padding-top: 196px;
-  padding-bottom: 156px;
   background-image: url("./img/big-star.png"), url("./img/group-stars.png");
   background-repeat: no-repeat;
   background-position: top right, top 60% left calc(50% - 135px);
+  background-size: auto;
+}
+
+.header {
+  padding-top: 196px;
+  padding-bottom: 156px;
 }
 .header__heading {
   font-size: 64px;
@@ -42,6 +62,7 @@
 
 .ticker {
   background: #BCEC30;
+  overflow: hidden;
 }
 .ticker__list {
   list-style-type: none;
@@ -72,6 +93,7 @@
   background-image: url("./img/big-star1.png"), url("./img/main-stars.png");
   background-repeat: no-repeat;
   background-position: top right, top -28% left calc(50% - 52px);
+  background-size: auto;
 }
 
 .about__title {
@@ -145,18 +167,61 @@
   color: #202027;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+@media (min-width: 836px) and (max-width: 1199px) {
+  .container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .cards {
+    max-height: 1603px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
-
-body {
-  font-family: "Montserrat", Arial, Helvetica, serif;
-}
-
-.container {
-  padding-left: calc(50% - 600px);
-  padding-right: calc(50% - 600px);
+@media (max-width: 835px) {
+  .page-repo {
+    background-image: url("./img/big-star-mob.svg"), url("./img/star-mob-up.svg"), url("./img/star-mob-down.svg");
+    background-repeat: no-repeat;
+    background-position: top right, top 64px left 10%, bottom 79px right 10%;
+  }
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .header {
+    padding-top: 147px;
+    padding-bottom: 147px;
+    text-align: center;
+  }
+  .header__heading {
+    font-size: 40px;
+  }
+  .header__text {
+    font-size: 16px;
+    margin-bottom: 36px;
+    line-height: normal;
+  }
+  .header__btn {
+    font-size: 16px;
+    padding: 16px 104px;
+    max-width: 285px;
+    margin: auto;
+  }
+  .ticker__list {
+    padding: 16px 0;
+  }
+  .ticker__item {
+    font-size: 16px;
+  }
+  .ticker__item svg {
+    width: 19px;
+    height: 19px;
+  }
+  .main {
+    background-image: none;
+  }
+  .about {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
