@@ -90,19 +90,23 @@ body {
 
 .main {
   background-color: #202027;
-  background-image: url("./img/big-star1.png"), url("./img/main-stars.png");
+  background-image: url("./img/big-star1.png"), url("./img/main-stars.svg");
   background-repeat: no-repeat;
-  background-position: top right, top -28% left calc(50% - 52px);
+  background-position: top right, top 92% left calc(50% - 6px);
   background-size: auto;
+  padding-bottom: 144px;
 }
 
-.about__title {
-  padding-top: 94px;
+.title-section {
   font-size: 64px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   color: #fff;
+}
+
+.about__title {
+  padding-top: 94px;
   padding-bottom: 24px;
 }
 .about__text {
@@ -165,6 +169,90 @@ body {
   font-weight: 700;
   line-height: normal;
   color: #202027;
+}
+
+.games__title {
+  padding-top: 96px;
+  padding-bottom: 72px;
+}
+
+.cards-vertical {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 32px;
+  color: #202027;
+}
+
+.card-vertical {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  background-color: #fff;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 30px;
+}
+.card-vertical__content {
+  padding: 48px;
+}
+.card-vertical__title {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 24px;
+}
+.card-vertical__subtitle {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  padding-bottom: 36px;
+  max-width: 438px;
+}
+.card-vertical__btn {
+  display: inline-block;
+  color: #FFF;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  padding: 16px 76px;
+  border-radius: 60px;
+  background: #202027;
+  text-decoration: none;
+}
+.card-vertical__btn:hover {
+  background-color: #fff;
+  color: #202027;
+  border: 1px solid #000;
+}
+.card-vertical_img-right {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.footer {
+  background-color: #BCEC30;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+.footer__text {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: #000;
 }
 
 @media (min-width: 836px) and (max-width: 1199px) {
