@@ -32,11 +32,11 @@
         font-weight: 400;
         line-height: 32px;
         margin-bottom: 48px;
+    }
 
-        &_bold{
+     &__text-bold{
             font-weight: 600;
         }
-    }
 
     &__btn{
         background-color: $btn-primary;

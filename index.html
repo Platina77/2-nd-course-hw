@@ -14,7 +14,8 @@
         <header class="header container">
             <div class="header__content">
                 <h1 class="header__heading">Добро пожаловать<br>на мой сайт мини-игр</h1>
-                <p class="header__text">Тебе предстоит пройти несколько увлекательных игр. Если готов, нажимай <span class="header__text_bold">«Поехали!»</span> и <span class="header__text_bold">приступай.</span></p>
+                <p class="header__text">Тебе предстоит пройти несколько увлекательных игр. Если готов, нажимай 
+                    <span class="header__text-bold">«Поехали!»</span> и <span class="header__text-bold">приступай.</span></p>
             </div>
             <a href="#about" class="header__btn">Поехали!</a>
         </header>
@@ -62,7 +63,7 @@
             <p class="about__text">В моей коллекции представлено 6 игр на разные темы.Игры несложные — в них может поиграть каждый. <br>Все игры доступны для пользования.</p>
             <div class="cards">
                 <article class="card">
-                    <a href="#" class="card__link">
+                    <a href="#numbers" class="card__link">
                         <img src="./img/guess-the-number.png" alt="guess-the-number" class="card__img">
                         <div class="card__content">
                             <p class="card__subtitle">Игра № 1</p>
@@ -71,7 +72,7 @@
                     </a>
                 </article>
                 <article class="card">
-                    <a href="#" class="card__link">
+                    <a href="#rock-stone" class="card__link">
                         <img src="./img/rock-stone.png" alt="rock-stone" class="card__img">
                         <div class="card__content">
                             <p class="card__subtitle">Игра №4</p>
@@ -80,7 +81,7 @@
                     </a>
                 </article>
                 <article class="card">
-                    <a href="#" class="card__link">
+                    <a href="#arithmetic" class="card__link">
                         <img src="./img/arithmetic.png" alt="arithmetic" class="card__img">
                         <div class="card__content">
                             <p class="card__subtitle">Игра № 2</p>
@@ -89,7 +90,7 @@
                     </a>
                 </article>
                 <article class="card">
-                    <a href="#" class="card__link">
+                    <a href="#quiz" class="card__link">
                         <img src="./img/quiz.png" alt="quiz" class="card__img">
                         <div class="card__content">
                             <p class="card__subtitle">Игра №5</p>
@@ -98,7 +99,7 @@
                     </a>
                 </article>
                 <article class="card">
-                    <a href="#" class="card__link">
+                    <a href="#translate" class="card__link">
                         <img src="./img/translate.png" alt="translate" class="card__img">
                         <div class="card__content">
                             <p class="card__subtitle">Игра №3</p>
@@ -107,7 +108,7 @@
                     </a>
                 </article>
                 <article class="card">
-                    <a href="#" class="card__link">
+                    <a href="#random" class="card__link">
                         <img src="./img/random-color.png" alt="random-color" class="card__img">
                         <div class="card__content">
                             <p class="card__subtitle">Игра №6</p>
@@ -120,7 +121,7 @@
         <section class="games container">
             <h2 class="games__title title-section">Мини-игры</h2>
             <div class="cards-vertical">
-                <article class="card-vertical">
+                <article class="card-vertical" id="numbers">
                     <div class="card-vertical__content">
                         <h3 class="card-vertical__title">Угадай число</h3>
                         <p class="card-vertical__subtitle">Попробуй угадать случайное число от 1 до 100.</p>
@@ -128,7 +129,7 @@
                     </div>
                     <img src="./img/numbers-vert.svg" alt="numbers" class="card-vertical__img">
                 </article>
-                <article class="card-vertical card-vertical_img-right">
+                <article class="card-vertical card-vertical_img-right" id="arithmetic">
                     <div class="card-vertical__content">
                         <h3 class="card-vertical__title">Простая арифметика</h3>
                         <p class="card-vertical__subtitle">Попробуй решить простые арифметические задачи.</p>
@@ -136,7 +137,7 @@
                     </div>
                     <img src="./img/arithmetic-vert.svg" alt="arithmetic" class="card-vertical__img">
                 </article>
-                <article class="card-vertical">
+                <article class="card-vertical" id="translate">
                     <div class="card-vertical__content">
                         <h3 class="card-vertical__title">Переверни текст</h3>
                         <p class="card-vertical__subtitle">Попробуй ввести текст, который будет перевернут.</p>
@@ -144,7 +145,7 @@
                     </div>
                     <img src="./img/translate-vert.svg" alt="translate" class="card-vertical__img">
                 </article>
-                <article class="card-vertical card-vertical_img-right">
+                <article class="card-vertical card-vertical_img-right" id="rock-stone">
                     <div class="card-vertical__content">
                         <h3 class="card-vertical__title">Камень, ножницы, бумага</h3>
                         <p class="card-vertical__subtitle">Сыграй в популярную игру против компьютера.</p>
@@ -152,7 +153,7 @@
                     </div>
                     <img src="./img/rock-stone-vert.png" alt="rock-stone" class="card-vertical__img">
                 </article>
-                <article class="card-vertical">
+                <article class="card-vertical" id="quiz">
                     <div class="card-vertical__content">
                         <h3 class="card-vertical__title">Простая викторина</h3>
                         <p class="card-vertical__subtitle">Отвечай на вопросы викторины с вариантами ответов.</p>
@@ -160,7 +161,7 @@
                     </div>
                     <img src="./img/quiz-vert.svg" alt="quiz" class="card-vertical__img">
                 </article>
-                <article class="card-vertical card-vertical_img-right">
+                <article class="card-vertical card-vertical_img-right" id="random">
                     <div class="card-vertical__content">
                         <h3 class="card-vertical__title">Генератор случайных цветов</h3>
                         <p class="card-vertical__subtitle">Игра, в которой при клике на кнопку фон страницы меняется на случайный.</p>
