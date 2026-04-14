@@ -32,11 +32,11 @@
         font-weight: 400;
         line-height: 32px;
         margin-bottom: 48px;
+    }
 
-        &_bold{
+     &__text-bold{
             font-weight: 600;
         }
-    }
 
     &__btn{
         background-color: $btn-primary;
@@ -55,7 +55,7 @@
 }
 
 .ticker{
-    background: #BCEC30;
+    background: $bg-secondary;
     overflow: hidden;
 
     &__list{
@@ -82,23 +82,28 @@
     background-color: $btn-primary;
     background-image: 
         url("./img/big-star1.png"),
-        url("./img/main-stars.png");
+        url("./img/main-stars.svg");
     background-repeat: no-repeat;
     background-position: 
         top right,
-        top -28% left calc(50% - 52px);
+        top 92% left calc(50% - 6px);
+
     background-size: auto;
+    padding-bottom: 144px;
+}
+
+.title-section{
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #fff;
 }
 
 .about{
     
     &__title{
         padding-top: 94px;
-        font-size: 64px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        color: #fff;
         padding-bottom: 24px;
     }
 
@@ -154,3 +159,86 @@
         color: $text-primary;
     }
 }
+
+.games{
+    &__title{
+        padding-top: 96px;
+        padding-bottom: 72px;
+    }
+}
+
+.cards-vertical{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    color: $text-primary;
+}
+
+.card-vertical{
+
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+    justify-content: space-between;
+    border-radius: 30px;
+
+    &__content{
+        padding: 48px;
+    }
+
+    &__title{
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-bottom: 24px;
+    }
+
+    &__subtitle{
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        padding-bottom: 36px;
+        max-width: 438px;
+    }
+
+    &__btn{
+        display: inline-block;
+        color: #FFF;
+        text-align: center;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        padding: 16px 76px;
+        border-radius: 60px;
+        background: $btn-primary;
+        text-decoration: none;
+
+        &:hover{
+            background-color: #fff;
+            color: $text-primary;
+            border: 1px solid #000;
+        }
+    }
+
+    &_img-right{
+        flex-direction: row-reverse;
+    }
+}
+
+.footer{
+    background-color: $bg-secondary;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+
+    &__text{
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        color: #000;
+    }
+}
+

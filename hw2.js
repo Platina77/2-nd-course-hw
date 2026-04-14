@@ -55,7 +55,7 @@ let user = {
 let name = prompt("Напишите Ваше имя");
 alert(`Привет, ${name}`); */
 
-//Доп. задание
+/* //Доп. задание
 
 let num = +prompt("Загадай любое число");
 let num1 = num;
@@ -63,4 +63,4 @@ alert(num1*=2);
 alert(num1+=10);
 alert(num1/=2);
 alert(num1 - num);
-alert(`ответ: ${num1 - num}`);
+alert(`ответ: ${num1 - num}`); */
