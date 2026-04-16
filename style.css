@@ -42,7 +42,7 @@ body {
   line-height: 32px;
   margin-bottom: 48px;
 }
-.header__text_bold {
+.header__text-bold {
   font-weight: 600;
 }
 .header__btn {
@@ -308,8 +308,48 @@ body {
   }
   .main {
     background-image: none;
+    padding-bottom: 10px;
   }
   .about {
     display: none;
   }
+}
+.games__title {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.cards-vertical {
+  gap: 24px;
+}
+
+.card-vertical {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.card-vertical__content {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  padding: 30px 30px 32px;
+}
+.card-vertical__title {
+  font-size: 32px;
+  padding-bottom: 16px;
+}
+.card-vertical__subtitle {
+  font-size: 16px;
+  line-height: normal;
+  padding-bottom: 32px;
+  max-width: 270px;
+}
+.card-vertical__btn {
+  display: block;
+  font-size: 16px;
+}
+
+.title-section {
+  font-size: 40px;
 }/*# sourceMappingURL=style.css.map */
