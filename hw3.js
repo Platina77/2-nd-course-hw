@@ -86,7 +86,7 @@ if (clientOS === 0) {
 } */
 
 //3.
-let clientOS = 0;
+/* let clientOS = 0;
 let clientDeviceYear = 2010;
 
 if (clientOS === 0) {
@@ -102,4 +102,4 @@ if (clientOS === 0) {
     } else {
         console.log('Установите версию приложения для Android по ссылке');
     }
-}
+} */
