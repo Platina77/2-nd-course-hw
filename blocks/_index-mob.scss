@@ -64,45 +64,52 @@
     .about{
         display: none;
     }
-}
 
-.games{
+    .games{
     &__title{
         padding-top: 48px;
         padding-bottom: 48px;
     }
 }
 
-.cards-vertical{
-    gap: 24px;
+    .cards-vertical{
+        gap: 24px;
+    }
+
+    .card-vertical{
+        flex-direction: column;
+
+        &__content{
+            order: 1;
+            padding: 30px 30px 32px;
+        }
+
+        &__title{
+            font-size: 32px;
+            padding-bottom: 16px;
+        }
+
+        &__subtitle{
+            font-size: 16px;
+            line-height: normal;
+            padding-bottom: 32px;
+            max-width: 270px;
+        }
+
+        &__btn{
+            display: block;
+            font-size: 16px;
+        }
+    }
+
+    .title-section{
+        font-size: 40px;
+    }
+
+    .footer{
+        &__text{
+            font-size: 16px;
+        }
+    }
 }
 
-.card-vertical{
-    flex-direction: column;
-
-    &__content{
-        order: 1;
-        padding: 30px 30px 32px;
-    }
-
-    &__title{
-        font-size: 32px;
-        padding-bottom: 16px;
-    }
-
-    &__subtitle{
-        font-size: 16px;
-        line-height: normal;
-        padding-bottom: 32px;
-        max-width: 270px;
-    }
-
-    &__btn{
-        display: block;
-        font-size: 16px;
-    }
-}
-
-.title-section{
-    font-size: 40px;
-}

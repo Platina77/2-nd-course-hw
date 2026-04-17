@@ -198,6 +198,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   border-radius: 30px;
+  overflow: hidden;
 }
 .card-vertical__content {
   padding: 48px;
@@ -313,43 +314,43 @@ body {
   .about {
     display: none;
   }
-}
-.games__title {
-  padding-top: 48px;
-  padding-bottom: 48px;
-}
-
-.cards-vertical {
-  gap: 24px;
-}
-
-.card-vertical {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-.card-vertical__content {
-  -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1;
-          order: 1;
-  padding: 30px 30px 32px;
-}
-.card-vertical__title {
-  font-size: 32px;
-  padding-bottom: 16px;
-}
-.card-vertical__subtitle {
-  font-size: 16px;
-  line-height: normal;
-  padding-bottom: 32px;
-  max-width: 270px;
-}
-.card-vertical__btn {
-  display: block;
-  font-size: 16px;
-}
-
-.title-section {
-  font-size: 40px;
+  .games__title {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .cards-vertical {
+    gap: 24px;
+  }
+  .card-vertical {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .card-vertical__content {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    padding: 30px 30px 32px;
+  }
+  .card-vertical__title {
+    font-size: 32px;
+    padding-bottom: 16px;
+  }
+  .card-vertical__subtitle {
+    font-size: 16px;
+    line-height: normal;
+    padding-bottom: 32px;
+    max-width: 270px;
+  }
+  .card-vertical__btn {
+    display: block;
+    font-size: 16px;
+  }
+  .title-section {
+    font-size: 40px;
+  }
+  .footer__text {
+    font-size: 16px;
+  }
 }/*# sourceMappingURL=style.css.map */
