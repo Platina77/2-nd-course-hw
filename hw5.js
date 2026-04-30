@@ -38,12 +38,51 @@
 
     // ИЛИ
 
-function getMin(a, b){
+/* function getMin(a, b){
     return a >= b ? b : a;
 }
 
 console.log(getMin(8, 4));
 console.log(getMin(5, 15));
-console.log(getMin(8, 8));
+console.log(getMin(8, 8)); */
 
 //2.
+
+/* function checkingEvenOdd(number) {
+    return number % 2 === 0? console.log('Число четное') : console.log('Число нечетное')
+}
+
+checkingEvenOdd(5); */
+
+//3.
+
+/* function squareNumber(number) {
+    console.log(number**2);
+}
+
+squareNumber(7); */
+
+/* function squareNumber(number) {
+    return number**2;
+}
+
+let squareNum = squareNumber(7);
+console.log(squareNum); */
+
+//4.
+
+/* function years(){
+    let userYear = prompt('Сколько Вам лет');
+    if(userYear > 0 && userYear < 12){
+        alert('Привет, друг!');
+    } else if (userYear >= 13){
+        alert('Добро пожаловать!');
+    }else{
+        alert('Вы ввели неправильное значение');
+    }
+}
+
+years(); */
+
+//5.
+
