@@ -86,3 +86,55 @@ years(); */
 
 //5.
 
+/* function ProductOfNumbers(num1, num2) {
+    if(isNaN(num1)||isNaN(num2)){
+        return 'Одно или оба значения не являются числом';
+    } else {
+        return num1 * num2;
+    }
+}
+
+console.log(ProductOfNumbers('fd', 54)); */
+
+//6.
+
+/* function ProductOfNumbers() {
+    let userNum = +prompt('Введите число');
+    let NumberCube = 0;
+    if(isNaN(userNum)){
+        return 'Переданный параметр не является числом';
+    } else {
+        NumberCube = userNum**3;
+        return `${userNum} в кубе равняется ${NumberCube}`;
+    }
+}
+
+console.log(ProductOfNumbers()); */
+
+//7.
+
+/* function getArea(){
+    return Math.PI * this.radius ** 2;
+}
+
+function getPerimeter() {
+    return 2 * Math.PI * this.radius;
+}
+
+let circle1 = {
+    radius : 10,
+    getArea,
+    getPerimeter,
+}
+
+let circle2 = {
+    radius : 12,
+    getArea,
+    getPerimeter,
+}
+
+console.log(circle1.getArea());
+console.log(circle1.getPerimeter());
+
+console.log(circle2.getArea());
+console.log(circle2.getPerimeter()); */
