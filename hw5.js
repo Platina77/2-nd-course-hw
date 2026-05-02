@@ -1,4 +1,4 @@
-/* function quessNumber(){
+function quessNumber(){
     const randomNumber = Math.floor(Math.random() * 100) + 1;
     let userNumber = +prompt('Угадайте число от 1 до 100');
     
@@ -19,11 +19,11 @@
         } else if (randomNumber < userNumber) {
             alert('Загаданное число меньше вашего');
         }
-        userNumber = +prompt('Введите число еще раз');
 
-        alert('Вы угадали!!!');
+        userNumber = +prompt('Введите число еще раз');     
     };    
-} */
+    alert('Вы угадали!!!');
+}
 
 
 //1. 
