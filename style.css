@@ -5,6 +5,10 @@
           box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Montserrat", Arial, Helvetica, serif;
 }
@@ -133,6 +137,14 @@ body {
 
 .card {
   max-width: 378px;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+.card:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 .card__link {
   text-decoration: none;

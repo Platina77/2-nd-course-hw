@@ -126,6 +126,11 @@
 
 .card{
     max-width: 378px;
+    transition: transform 0.3s ease;
+
+    &:hover{
+        transform: scale(1.05);
+    }
     &__link{
         text-decoration: none;
         background-color: #fff;
@@ -158,6 +163,7 @@
         line-height: normal;
         color: $text-primary;
     }
+
 }
 
 .games{
