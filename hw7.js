@@ -35,6 +35,8 @@ function answerTheQuizQuestions(){
       alert(`Верных ответов: ${count}`);
 }
 
+
+
 /* //1.
 let str = 'js';
 console.log(str.toUpperCase()); */
@@ -77,8 +79,6 @@ console.log(arr(6)); */
 
 console.log(randomNum(5, 10)); */
 
-//8.
-/* console.log(new Date()); */
 
 //9.
 /* let currentDate = new Date();
@@ -93,3 +93,6 @@ function formatDate(date){
 
 formatDate(new Date()); */
 
+
+//8.
+/* console.log(new Date()); */
