@@ -3,7 +3,7 @@ function turnTheTextOver(){
     alert(userWord.split('').reverse().join(''));
 }
 
-function answerTheQuizQuestions(){
+/* function answerTheQuizQuestions(){
     const quiz = [
            {
                question: "Какого цвета небо?",
@@ -33,8 +33,42 @@ function answerTheQuizQuestions(){
        }
 
       alert(`Верных ответов: ${count}`);
-}
+} */
 
+const quiz = [
+           {
+               question: "Какого цвета небо?",
+               options: ["1. Красный", "2. Синий", "3. Зеленый"],
+               correctAnswer: 2 // номер правильного ответа
+           },
+           {
+               question: "Сколько дней в неделе?",
+               options: ["1. Шесть", "2. Семь", "3. Восемь"],
+               correctAnswer: 2
+           },
+           {
+               question: "Сколько у человека пальцев на одной руке?",
+               options: ["1. Четыре", "2. Пять", "3. Шесть"],
+               correctAnswer: 2
+           }
+       ];
+
+
+function answerTheQuizQuestions(question){
+    
+
+       let count = 0;
+
+       for(let i = 0; i < quiz.length; i++){
+        let userAnswer = prompt(`${quiz[i].question}: ${quiz[i].options}`);
+        
+        if(Number(userAnswer) === quiz[i].correctAnswer){
+            count++;
+        }
+       }
+
+      alert(`Верных ответов: ${count}`);
+}
 
 
 /* //1.
