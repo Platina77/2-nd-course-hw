@@ -15,8 +15,7 @@ const pEl = document.querySelector('.text');
 const btnEl = document.querySelector('.btn');
 
 btnEl.addEventListener('click', function(){
-    pEl.style.backgroundColor = 'blue';
-    pEl.style.color = 'white';
+    pEl.style.color = 'green';
 }) */
 
 /* //3.
@@ -24,7 +23,7 @@ const titleEl = document.querySelector('.title');
 const btnEl = document.querySelector('.btn');
 
 btnEl.addEventListener('click', function(){
-    titleEl.textContent = 'Новый заголовок';
+    titleEl.textContent = 'Привет, мир!';
 })
  */
 
@@ -54,6 +53,6 @@ btnEl.addEventListener('click', function(){
 const descEl = document.querySelector('.description');
 const btnEl = document.querySelector('.btn');
 
-btnEl.addEventListener(click, function(){
+btnEl.addEventListener('click', function(){
     descEl.remove();
 }) */
